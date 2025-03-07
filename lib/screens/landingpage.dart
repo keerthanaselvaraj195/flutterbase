@@ -7,7 +7,9 @@ class Landingpage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        child: Text('Landing page'),
+        child: Column(
+          children: [Text('landing page'), Text('')],
+        ),
       ),
     );
   }
